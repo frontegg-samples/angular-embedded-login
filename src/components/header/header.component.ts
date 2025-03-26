@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FronteggAuthService, ContextHolder } from '@frontegg/angular';
+import { FronteggAuthService } from '@frontegg/angular';
 
 @Component({
   selector: 'app-header',
@@ -20,7 +20,6 @@ export class HeaderComponent implements OnInit {
   }
 
   logout() {
-    const baseUrl = ContextHolder.for(undefined as any).getContext().baseUrl;
-    window.location.href = `${baseUrl}/oauth/logout?post_logout_redirect_uri=http://localhost:4200`;
+    this.fronteggAuthService.logout();
   }
 }
