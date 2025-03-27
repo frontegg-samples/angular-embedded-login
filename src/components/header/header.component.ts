@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FronteggAuthService } from '@frontegg/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -11,6 +12,7 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     private fronteggAuthService: FronteggAuthService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -21,5 +23,6 @@ export class HeaderComponent implements OnInit {
 
   logout() {
     this.fronteggAuthService.logout();
+    this.router.navigate(['/']);
   }
 }
