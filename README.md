@@ -34,7 +34,8 @@ If you're using your own credentials, follow the guidelines below.
 1. Go to [Frontegg Portal](https://portal.frontegg.com/)
 2. Get your application ID from [ENVIRONMENT] → Applications
 3. Get your Frontegg domain from the Frontegg Portal → [ENVIRONMENT] → Keys & domains
-4. This sample runs on `http://localhost:3000`. You may need to add `http://localhost:4200` under → [ENVIRONMENT] → Keys & domains → Allowed origins.
+4. This sample runs on `http://localhost:4200`. You may need to add `http://localhost:4200` under → [ENVIRONMENT] → Keys & domains → Allowed origins
+5. Update your application's credentials under `sanboxContextOptions`
 
 ### 2. Clone the repository - 
 
