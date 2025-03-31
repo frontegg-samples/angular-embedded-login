@@ -8,7 +8,7 @@ This sample demonstrates how to add authentication to an Angular application usi
 
 - [Node.js](https://nodejs.org)
 - npm (comes with Node.js)
-- A Frontegg account. [Sign up for free](https://portal.frontegg.com/signup).
+- A Frontegg account. [Sign up for free](https://frontegg-prod.us.frontegg.com/oauth/account/sign-up).
 
 ## Setup
 
