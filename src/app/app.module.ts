@@ -39,7 +39,10 @@ const routes: Routes = [
     RouterModule.forRoot(routes, { useHash: false }),
     FronteggAppModule.forRoot({
       contextOptions: sanboxContextOptions,
-      hostedLoginBox: false
+      hostedLoginBox: false,
+      authOptions: {
+        keepSessionAlive: true,
+      },
     }),
   ],
   exports: [
