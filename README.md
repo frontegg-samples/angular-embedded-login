@@ -61,8 +61,8 @@ To start the application, run:
 npm start
 ```
 
-That’s it — you're all set!
-
 The app will be available at [http://localhost:4200](http://localhost:4200).
+
+![Angular sample](/src/assets/sample-angular.png)
 
 ### Experience Frontegg in action!
