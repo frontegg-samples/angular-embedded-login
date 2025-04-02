@@ -15,12 +15,12 @@ import { CopyButtonComponent } from '../components/copy-button/copy-button.compo
 
 const routes: Routes = [
   {
-    path: 'account',
+    path: 'home',
     component: AccountInfoComponent,
     canActivate: [FronteggAuthGuard],
   },
   { path: '', component: WelcomeComponent },
-  { path: '**', redirectTo: 'account' },
+  { path: '**', redirectTo: 'home' },
 ];
 
 @NgModule({

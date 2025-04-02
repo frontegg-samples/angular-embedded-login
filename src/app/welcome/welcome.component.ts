@@ -17,7 +17,7 @@ export class WelcomeComponent implements OnInit {
     this.fronteggAuthService.isAuthenticatedSubject.subscribe(
       (isAuthenticated) => {
         if (isAuthenticated) {
-          this.router.navigate(['/account']);
+          this.router.navigate(['/home']);
         }
       }
     );
