@@ -11,6 +11,7 @@ const DEFAULT_SANDBOX_CONTEXT = {
   selector: 'app-signup-banner',
   templateUrl: './signup-banner.component.html',
   styleUrls: ['./signup-banner.component.css'],
+  standalone: false
 })
 export class SignupBannerComponent {
   isDefaultCredentials = false;

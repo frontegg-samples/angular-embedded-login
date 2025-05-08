@@ -6,6 +6,7 @@ import { getInitials } from '../../utils/get-initials';
   selector: 'app-account-info',
   templateUrl: './account-info.component.html',
   styleUrls: ['./account-info.component.css'],
+  standalone: false
 })
 export class AccountInfoComponent implements OnInit {
   user: any;

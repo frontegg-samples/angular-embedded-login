@@ -6,6 +6,7 @@ import { FronteggAuthService } from '@frontegg/angular';
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css'],
+  standalone: false
 })
 export class WelcomeComponent implements OnInit {
   constructor(
