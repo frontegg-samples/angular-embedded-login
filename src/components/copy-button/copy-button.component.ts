@@ -4,6 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-copy-button',
   templateUrl: './copy-button.component.html',
   styleUrls: ['./copy-button.component.css'],
+  standalone: false
 })
 export class CopyButtonComponent {
   @Input() text: string = '';
