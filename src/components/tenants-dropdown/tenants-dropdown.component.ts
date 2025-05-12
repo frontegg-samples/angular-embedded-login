@@ -4,7 +4,8 @@ import { getInitials } from '../../utils/get-initials';
 @Component({
   selector: 'app-tenants-dropdown',
   templateUrl: './tenants-dropdown.component.html',
-  styleUrls: ['./tenants-dropdown.component.css']
+  styleUrls: ['./tenants-dropdown.component.css'],
+  standalone: false
 })
 export class TenantsDropdownComponent {
   @Input() items: any[] = [];
